@@ -6,3 +6,30 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+
+// Custom
+//RESET 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//COMMON
+// Typo
+.uppercase {
+    text-transform: uppercase;
+}
+
+//Header
+.navbar {
+    background-color: #08183d;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.navbar h2 {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
